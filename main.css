@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbare{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    
+
+}
+
+.logo img{
+    margin-top: 5px;
+    width:80%;
+}
+.list ul {
+    display: flex;
+    
+}
+.list ul li{
+    
+    margin-right: 15px;
+    margin-top: 20px;
+    list-style: none;
+    text-transform: uppercase;
+
+}
+.list li a{
+    text-decoration-line: none;
+    color:white;
+}
+.portfolio{
+    background-color:snow;
+    text-align: center;
+}
+.portfolio p{
+    text-transform: capitalize;
+    color: gray;
+    font-style: italic;
+}
+.portfolio h2{
+    text-transform: uppercase;
+}
+.items{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    gap: 20px;
+}
+.items .item{
+    width:30%;
+
+}
+.item h2{
+    text-transform: capitalize;
+}
+.items img{
+    width:100%;
+
+}
